@@ -1,4 +1,92 @@
-craftpvp
-========
-
-craftpvp
+config:
+    wait-time: 10
+    win-time: 60
+    game-time: 30
+    flag-distance: 5
+    lobby: castle
+    credits:
+      kill: 10
+      win: 15
+    mysql:
+        host: "localhost"
+        base: "crft_castle"
+        user: "crft"
+        pass: "CUG6aMaVaDxdJFzu"
+    items:
+        - "DIAMOND_SWORD 1 enchants:DAMAGE_ALL@5|FIRE_ASPECT@2"
+        - "GOLDEN_APPLE:1 2"
+        - "GOLDEN_APPLE 5"
+        - "ENDER_PEARL 1"
+        - "COOKED_BEEF 64"
+        - "DIAMOND_PICKAXE 1 enchants:DIG_SPEED@5|DURABILITY@3"
+        - "BOW 1 enchants:ARROW_FIRE@1|ARROW_INFINITE@1|ARROW_DAMAGE@5"
+        - "COBBLESTONE 64"
+        - "ENDER_CHEST 1"
+        - "ARROW 1"
+        - "WATER_BUCKET 1"
+    armor:
+        - "DIAMOND_HELMET 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+        - "DIAMOND_CHESTPLATE 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+        - "DIAMOND_LEGGINGS 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+        - "DIAMOND_BOOTS 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+    shop:
+        pearltemp:
+            icon: "ENDER_PEARL 1 name:&6Dodatkowa_perelka_(na_jedna_gre) lore:&7Koszt_-_100_kredytow"
+            price: 100
+            item: "ENDER_PEARL 1"
+            type: "TEMPORARY"
+        bowtemp:
+            icon: "261 1 name:&6Dodatkowy_luk_(na_jedna_gre) lore:&7Koszt_-_300_kredytow"
+            price: 300
+            item: "261 1 enchants:ARROW_KNOCKBACK@2|ARROW_INFINITE@1"
+            type: "TEMPORARY"
+        helmettemp:
+            icon: "DIAMOND_HELMET 1 name:&6Dodatkowy_helm_(na_jedna_gre) lore:&7Koszt_-_100_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 100
+            item: "DIAMOND_HELMET 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "TEMPORARY"
+        chesplatetemp:
+            icon: "311 1 name:&6Dodatkowa_napiersnik_(na_jedna_gre) lore:&7Koszt_-_100_kredytow"
+            price: 100
+            item: "311 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "TEMPORARY"
+        leggingstemp:
+            icon: "312 1 name:&6Dodatkowe_spodnie_(na_jedna_gre) lore:&7Koszt_-_100_kredytow"
+            price: 100
+            item: "312 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "TEMPORARY"
+        bootstemp:
+            icon: "DIAMOND_BOOTS 1 name:&6Dodatkowe_buty_(na_jedna_gre) lore:&7Koszt_-_100_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 100
+            item: "DIAMOND_BOOTS 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "TEMPORARY"
+        pearlperm:
+            icon: "ENDER_PEARL 1 name:&6Dodatkowa_perelka_(na_zawsze) lore:&7Koszt_-_6500_kredytow"
+            price: 6500
+            item: "ENDER_PEARL 1"
+            type: "PERMAMENT"
+        bowtemp:
+            icon: "261 1 name:&6Dodatkowy_luk_(na_zawsze) lore:&7Koszt_-_12000_kredytow"
+            price: 1200
+            item: "261 1 enchants:ARROW_KNOCKBACK@2|ARROW_INFINITE@1"
+            type: "PERMAMENT"
+        helmetperm:
+            icon: "DIAMOND_HELMET 1 name:&6Dodatkowy_helm_(na_zawsze) lore:&7Koszt_-_9000_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 9000
+            item: "DIAMOND_HELMET 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "PERMAMENT"
+        chestplateperm:
+            icon: "311 1 name:&6Dodatkowy_napiersnik_(na_zawsze) lore:&7Koszt_-_8600_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 8600
+            item: "311 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "PERMAMENT"
+        leggingsperm:
+            icon: "312 1 name:&6Dodatkowy_spodnie_(na_zawsze) lore:&7Koszt_-_8500_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 8500
+            item: "312 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "PERMAMENT"
+        bootsperm:
+            icon: "DIAMOND_BOOTS 1 name:&6Dodatkowe_buty_(na_zawsze) lore:&7Koszt_-_9000_kredytow enchants:PROTECTION_ENVIRONMENTAL@4"
+            price: 9000
+            item: "DIAMOND_BOOTS 1 enchants:PROTECTION_ENVIRONMENTAL@4"
+            type: "PERMAMENT"
